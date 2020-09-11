@@ -1,0 +1,7 @@
+#####Haciendo la BASE DE DATOS#####
+
+###Leyendo STATA
+library(rio)
+lkDTA="https://github.com/PoliticayGobiernoPUCP/estadistica_anapol2/raw/master/DATA/lapop2012.dta"
+dataStata=import(lkDTA)
+
