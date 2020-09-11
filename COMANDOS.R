@@ -1,4 +1,4 @@
-######SCRIPT DE COMANDOS PARA EAP2#####
+######SCRIPT DE COMANDOS PARA EAP2######
 
 ##Para importar, convertir y exportar: rio
 install.packages("rio")
@@ -10,6 +10,9 @@ data=import("trabajadores.sav")
 #Para importar desde la nube (repositorio):
 link="https://github.com/DataPolitica/salidas/raw/master/Data/trabajadores.sav"
 trabajadores=import(link)
+
+#Saber las las filas Y COLUMNAS:
+dim(dataStata)
 
 #Para cambiar de formato (.rda) (ABRE RIO ANTES):
 convert("trabajadores.sav", "trabajadores.rda")
